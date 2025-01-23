@@ -1,3 +1,4 @@
+//check odd or even and print expected statement 
 import java.util.Scanner;
 public class IfElse {
 
