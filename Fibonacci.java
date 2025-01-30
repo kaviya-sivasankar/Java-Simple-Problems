@@ -25,7 +25,7 @@ public class Fibonacci{
     a = temp;
 
     count++;
-   }
+    }
     System.out.println(b);
     in.close();
   }
