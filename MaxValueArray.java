@@ -1,35 +1,26 @@
 // Maximum value of an array
 
 public class MaxValueArray{
+  
+  public static void main(String[] args){
+     
+     int[] arr = {1,44,78,18,5};
 
-
-public static void main(String[] args){
-
-int[] arr = {1,44,78,18,5};
-
-System.out.print(max(arr));
-
-
+       System.out.print(max(arr));
 }
 
+ static int max(int[] arr){
 
+     int maxval = arr[0];
 
-static int max(int[] arr){
+   for(int i =1; i < arr.length; i++){
 
-int maxval = arr[0];
+   if(arr[i] > maxval)
 
-for(int i =1; i < arr.length; i++){
-
-if(arr[i] > maxval)
-
-maxval = arr[i];
-
-}
-return maxval;
-
-
-}
-
-
+      maxval = arr[i];
+  }
+  
+   return maxval;
+  }
 
 }
