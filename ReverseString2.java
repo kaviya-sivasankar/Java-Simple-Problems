@@ -1,8 +1,5 @@
 //reverse string efficient for large string
 
-
-//efficient reversestring method for large string
-
 public class ReverseString2{
 
    public static void main(String[] args){
