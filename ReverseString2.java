@@ -1,4 +1,4 @@
-//reverse string efficient for large string
+// in place of large string
 
 public class ReverseString2{
 
